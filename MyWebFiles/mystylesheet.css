@@ -1,0 +1,12 @@
+body{
+    background-repeat: repeat;
+    background-image: url("download.jpg");
+    background-attachment: fixed;
+
+}
+#Id001{
+    border-style: solid hidden dotted dashed;
+    border-width: 20px 25px 10px 5px;
+    border-top-color: chocolate;
+    margin : auto;
+}
