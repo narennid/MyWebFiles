@@ -5,8 +5,21 @@ body{
 
 }
 #Id001{
-    border-style: solid hidden dotted dashed;
+    width:80%;
+    border-style: solid ;
     border-width: 20px 25px 10px 5px;
-    border-top-color: chocolate;
-    margin : auto;
+    border-color: black;
+    /*border-top-color: chocolate;*/
+    /*margin : auto;*/
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    
+}
+
+#Id001{
+    padding: 2%;
 }
