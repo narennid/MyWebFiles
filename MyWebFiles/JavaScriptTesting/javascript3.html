@@ -1,0 +1,20 @@
+<!--script in external file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    id="P1">This is html paragraph</p><br>
+    <p id="P2">Html paragraph 2</p>
+    <input type="text" id="I1" name="input1" autofocus>
+    <p id="P3">Input</p>
+
+    <button type="button" onclick="document.getElementById('P1').innerHTML = 'Javascript'">click me to change para1</button>
+    <button type="button" onclick="changeFontcolor()">click me to change para2 css</button>
+    <button type="button" onclick="checkIfNumberBetweenOneAndTen()" >click to check if input is number bt 1&10</button>
+    <img id="Image1" src="bulbOFF.jpg" onclick="changeImage()" ><br>
+    <script src="myScript.js"></script>
+</body>
+</html>
